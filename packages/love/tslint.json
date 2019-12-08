@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "quotemark": [true, "single"],
+    "semicolon": [true, "always"],
+    "trailing-comma": [
+      true, {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "whitespace": [true, "check-module"],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "import-sources-order": "lowercase-last",
+        "named-imports-order": "lowercase-last"
+      }
+    ],
+    "space-before-function-paren": true
+  }
+}
