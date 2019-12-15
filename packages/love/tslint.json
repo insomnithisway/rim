@@ -11,6 +11,7 @@
         "singleline": "never"
       }
     ],
+    "object-literal-sort-keys": false,
     "whitespace": [true, "check-module"],
     "ordered-imports": [
       true,

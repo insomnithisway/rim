@@ -1,11 +1,8 @@
-import init from './app';
-import config from './config';
-import { makeLog } from './utils/logger';
-
-const log = makeLog('init')
+import { createInstance } from './app';
+import config from './config/current';
 
 try {
-    init(config.server);
+    const instance = createInstance(config);
 } catch (e) {
-    log.error(e);
+    process.exit(1);
 }
