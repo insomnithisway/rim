@@ -1,8 +1,6 @@
 import { createInstance } from './app';
 import config from './config/current';
 
-try {
-    const instance = createInstance(config);
-} catch (e) {
+createInstance(config).catch(() => {
     process.exit(1);
-}
+});
