@@ -1,0 +1,14 @@
+{
+  "name": "@rim/cli-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rim/eslint-config": "workspace:^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0"
+  }
+}

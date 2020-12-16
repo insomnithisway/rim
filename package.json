@@ -1,0 +1,19 @@
+{
+  "name": "rim",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insomnithisway/peppa.git"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insomnithisway/peppa/issues"
+  },
+  "homepage": "https://github.com/insomnithisway/peppa#readme"
+}

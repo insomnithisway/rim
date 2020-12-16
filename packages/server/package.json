@@ -1,0 +1,27 @@
+{
+  "name": "@rim/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --ext .ts,.js ./",
+    "start": "ts-node ./app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rim/eslint-config": "workspace:^1.0.0",
+    "@rim/typescript-config": "workspace:^1.0.0",
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.14",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "@rim/cli-utils": "workspace:^1.0.0",
+    "express": "^4.17.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@rim/typescript-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsconfig.json",
+  "author": "",
+  "license": "ISC"
+}
